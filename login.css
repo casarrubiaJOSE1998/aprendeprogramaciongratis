@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/hero.jpg");
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    color: wheat;
+}
+
+.login-from{
+    width: 400px;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    margin: auto;
+    margin-top: 85px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-shadow: 7px 10px 34px white;
+}
+
+.registros{
+    width: 90%;
+    background: white;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+    border: 2px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.botones{
+    width: 90%;
+    background: green;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 10px 0;
+    font-size: 15px;
+
+}
